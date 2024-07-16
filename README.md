@@ -7,7 +7,6 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
 - [Screenshot](#screenshot)
 - [Links](#links)
 - [Built with](#built-with)
-- [Continued Development](#continued-development)
 
 ### Screenshot
 
@@ -15,12 +14,12 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
 
 ### Links
 
-- [Live Site URL]
-- [Solution URL]
+- [Live Site URL](https://debabratabanik.github.io/faq-accordion-main/)
+- [Solution URL](https://www.frontendmentor.io/solutions/faq-accordion-main-xC5Il10dLi)
 
 ### Built with
 
-- Sematic HTML
+- Sematic HTML5 markup
 - Custom CSS properties
 - CSS Flexbox
 - JavaScript
