@@ -18,52 +18,112 @@ img{
   max-width: 100%;
 }
 
+picture{
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 40vh;
+  overflow: hidden;
+}
+picture img{
+  width: 100%;
+  height: 40vh;
+  object-fit: cover;
+}
+
 .wrapper{
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: var(--light-pink);
-  background-image: url(assets/images/background-pattern-mobile.svg);
+  /* background-image: url(assets/images/background-pattern-mobile.svg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: contain; */
 }
-
+.card__container{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 10;
+}
 .card{
+  max-width: 600px;
   width: 90%;
-  margin-inline: auto;
   background-color: white;
-  border-radius: 10px;
-  padding: 1.25rem;
+  border-radius: 15px;
+  padding: 1.5rem;
+  box-shadow: 0px 5px 25px hsla(292, 16%, 49%, 0.3);
 }
 
 .title{
   display: flex;
   align-items: center;
   gap: 1rem;
+  margin-bottom: 1rem;
 }
 .title img{
   width: 25px;
 }
 h1{
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin: 0;
 }
 
+.faq-item + .faq-item{
+  margin-top: 1rem;
+}
 .faq-question{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 1rem;
 }
 h2{
-  font-size: 1rem;
-  font-weight: 700;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+h2:hover{
+  color: rgb(176, 0, 176);
 }
 .icon{
   width: 25px;
+  cursor: pointer;
 }
 
 .faq-answer{
-  display: none;
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: var(--grayish-purple);
+  line-height: 1.25rem;
+  margin-right: 1rem;
+  transition: all 0.5s;
+  height: 0;
+  overflow: hidden;
+  margin: 0;
+}
+.display{
+  height: 4rem;
+  margin-block: 1rem;
 }
 
+@media (min-width: 768px) {
+  picture img{
+    object-fit: cover;
+    height: 40vh;
+  }
+  .title img{
+    width: 35px;
+  }
+  h1{
+    font-size: 3rem;
+  }
+  h2{
+    font-size: 1rem;
+    font-weight: 600;
+  }
+}
