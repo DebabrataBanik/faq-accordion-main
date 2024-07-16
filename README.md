@@ -17,3 +17,10 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
 
 - [Live Site URL]
 - [Solution URL]
+
+### Built with
+
+- Sematic HTML
+- Custom CSS properties
+- CSS Flexbox
+- JavaScript
