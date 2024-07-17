@@ -39,9 +39,6 @@ picture img{
   align-items: center;
   justify-content: center;
   background-color: var(--light-pink);
-  /* background-image: url(assets/images/background-pattern-mobile.svg);
-  background-repeat: no-repeat;
-  background-size: contain; */
 }
 .card__container{
   display: flex;
