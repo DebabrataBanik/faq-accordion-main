@@ -13,7 +13,9 @@ function App() {
   ];
 
   const handleClick = (index) => {
-    setExpandedIndex(expandedIndex === index ? null : index)
+    // setExpandedIndex(expandedIndex === index ? null : index)
+    setExpandedIndex(prev => prev === index ? null : index)
+
   }
 
   // a different approach to when instead of having one marker to reveal one answer, we can create a array to store the indices of answers that are opened and close them accordingly
@@ -45,12 +47,12 @@ function App() {
                 <img src="/assets/images/icon-star.svg" alt="icon-star" />
                 <h1 className="heading">FAQs</h1>
               </div>
-              
+
               <section className="faq-content">
 
                 {
-                  questions.map((item,index) => (
-                    <Faq 
+                  questions.map((item, index) => (
+                    <Faq
                       key={index}
                       question={item.question}
                       answer={item.answer}
