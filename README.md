@@ -10,7 +10,7 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
 
 ### Screenshot
 
-![alt text](design/desktop-preview.jpg)
+![alt text](faq-accordion-using-react/public/design/desktop-preview.jpg)
 
 ### Links
 
