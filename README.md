@@ -7,6 +7,7 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
 - [Screenshot](#screenshot)
 - [Links](#links)
 - [Built with](#built-with)
+- [Continued Development](#continued-development)
 
 ### Screenshot
 
@@ -22,4 +23,8 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
 - Sematic HTML5 markup
 - Custom CSS properties
 - CSS Flexbox
-- JavaScript
+- ReactJs
+
+### Continued Development
+
+Implement with React seems to be working fine but need to improve code and even add some animation for the answers. 
